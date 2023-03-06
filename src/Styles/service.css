@@ -1,0 +1,98 @@
+
+.section{
+    padding: 5rem 0; 
+}
+
+.bg-grey {
+    background: #f1f5f8;
+}
+
+.section-title {
+    margin-bottom: 4rem;
+    text-align: center;
+}
+
+.section-title h2{
+    position: relative;
+    top: -30px;
+}
+
+.section-title .underline {
+    width: 5rem;
+    height: 0.25rem;
+    background: #2caeba;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: -30px;
+}
+
+.section-title h2{
+    color: #102a42;
+    font-size: 3.5rem;
+    line-height: 1;
+}
+
+.section-center {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 2rem;
+    width: 90vw;
+    margin: 0 auto;
+    max-width: 1170px;
+   
+}
+
+@media screen and (min-width: 676px){
+    .services-center {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 2rem;
+    }
+}
+
+
+.service {
+    background: #fff;
+    padding: 3rem 1.5rem;
+    margin-bottom: 2rem;
+    border-radius: 0.25rem;
+    width: 350px;
+    text-align: center;
+    transition: all 0.3s linear;
+}
+
+.service:hover{
+    background: #2caeba;
+    color: #fff;
+}
+
+
+.service-icon {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.service h4{
+    letter-spacing: 0.2rem;
+    text-transform: capitalize;
+    margin-bottom: 0.25rem;
+    color: #102a42;
+}
+
+.service .underline {
+    margin-bottom: 1.25rem;
+    background: #2caeba;
+    margin-left: auto;
+    margin-right: auto;
+    width: 3rem;
+    height: 0.12rem;
+    margin-top: 15px;
+    transition: all 0.3s linear;
+}
+
+.service p {
+    margin-bottom: 1.25rem;
+    color: #324d67;
+}
+
