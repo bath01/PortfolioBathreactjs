@@ -4,15 +4,14 @@ import { ReactComponent as Dev } from "../images/téléchargement.svg";
 import { ReactComponent as Menu } from "../images/1491313929-menu_82986.svg";
 import "../Styles/contact.css";
 
-
 const Contact = () => {
   const [showNavbar, setShowNavbar] = useState(false);
 
   const handleShowNavbar = () => {
     setShowNavbar(!showNavbar);
   };
-    return (
-      <>
+  return (
+    <>
       <nav className="navbar backgroun">
         <div className="container">
           <div className="logo">
