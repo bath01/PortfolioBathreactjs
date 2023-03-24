@@ -6,6 +6,8 @@ import {
     faPhoenixFramework
 } from "@fortawesome/free-brands-svg-icons";
 import "../Styles/service.css";
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 const Service = () => {
 

@@ -1,0 +1,50 @@
+.projects{
+    background: #f1f5f8;
+}
+
+.section{
+    padding: 5rem 0;
+}
+
+.section-title{
+    margin-bottom: 4rem;
+    text-align: center;
+}
+
+.h2{
+    font-size: 2rem;
+}
+
+.section-center {
+    width: 90vw;
+    margin: 0 auto;
+    max-width: 1170px;
+}
+
+.project {
+    display: grid;
+    margin-bottom: 4rem;
+}
+
+.project-info {
+    background: #fff;
+    padding: 1rem 2rem;
+    border-bottom-left-radius: 0.25rem;
+    border-bottom-right-radius: 0.25rem;
+}
+
+.gatsby-image-wrapper-constrained {
+    display: inline-block;
+}
+
+.gatsby-image-wrapper {
+    position: relative;
+    overflow: hidden;
+}
+
+.project-number {
+    display: inline-block;
+    font-size: 1.25rem;
+    color: #2caeba;
+    margin-bottom: 0.75rem;
+}

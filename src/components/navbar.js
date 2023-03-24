@@ -14,6 +14,7 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 import Service from "./service";
 import Experience from "./experience";
+import FeatureProject from "./featuredProjects";
 
 
 
@@ -94,6 +95,7 @@ const Navbar = () => {
       </header>
       <Service />
       <Experience />
+      <FeatureProject/>
     </>
   );
 };
